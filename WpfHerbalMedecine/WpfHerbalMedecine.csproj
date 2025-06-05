@@ -63,6 +63,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Data\HerbalDB.cs" />
+    <Compile Include="Data\PasswordHash.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -73,6 +75,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Person.cs" />
     <Compile Include="OwnerPanel.xaml.cs">
       <DependentUpon>OwnerPanel.xaml</DependentUpon>
     </Compile>
