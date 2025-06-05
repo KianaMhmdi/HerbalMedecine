@@ -24,5 +24,25 @@ namespace WpfHerbalMedecine
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ctnForgotPassword_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCreatAcount_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
